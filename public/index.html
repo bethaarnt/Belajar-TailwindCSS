@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coba Tailwind</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 font-sans">
+    <!--Navbar-->
+    <nav>
+        <header class="container mx-auto">
+            <div class="flex flex-row justify-between items-center py-4">
+                <div class="ml-5">
+                    <img src="assets/lungmen.png" alt="DotNut Factory" class="w-20">
+                </div>
+                <div>
+                    <ul class="font-mono">
+                        <li class="inline mx-1 py-3 text-lg font-semibold hover:bg-cyan-600 pl-3 pr-3"><a href="#">Home</a></li>
+                        <li class="inline mx-1 py-3 text-lg font-semibold hover:bg-cyan-600 pl-3 pr-3"><a href="#">Products</a></li>
+                        <li class="inline mx-1 py-3 text-lg font-semibold hover:bg-cyan-600 pl-3 pr-3"><a href="#">Cart</a></li>
+                        <li class="inline mx-1 py-3 text-lg font-semibold hover:bg-cyan-600 pl-3 pr-3"><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </nav>
+
+    <!--Banner-->
+    <section class="bg-[url('assets/bgmain.jpg')] bg-cover bg-no-repeat bg-center ">
+        <div class="container mx-auto"> 
+            <div class="items-center py-4">
+                <div class="text-center text-white items-center font-mono m-3">
+                    <h1 class="text-4xl font-bold mt-40">Lungmen welcomes you to a futuristic gaming world. </h1><br>
+                    <p class="text-md my-2 font-semibold"> A 2021 company will lead the optimal gaming productivity for everyone</p> <br>    
+                    <button class="rounded-full bg-cyan-600 py-2 px-5 text-lg font-semibold hover:bg-white text-black mb-40"><a href="#">Check Products</a></button>               
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Popular Item-->
+    <section class="bg-white">
+        <div class="container mx-auto py-12">
+            <h2 class="text-gray-500 text-2xl text-center">Shop Now</h2>
+            <h1 class="text-center text-3xl mt-4 font-semibold">The Popular Video Games</h1>
+            <div class="mt-4">
+                <ul class="flex-wrap flex justify-center gap-5 item-center">
+                    <li class="font-semibold text-yellow-500 text-lg"><a href="#">Interactive movie</a></li>
+                    <li class="hover:text-yellow-500 text-lg"><a href="#">RPG</a></li>     
+                    <li class="hover:text-yellow-500 text-lg"><a href="#">Stealth game</a></li>
+                    <li class="hover:text-yellow-500 text-lg"><a href="#">Action Games</a></li>
+                </ul> 
+            </div> 
+            <div class="flex-wrap flex justify-around mt-4">
+                <div class="text-center p-6 bg-white rounded-xl shadow-md mb-2">
+                    <div>
+                        <img class="w-64 h-80" src="https://m.media-amazon.com/images/I/71qwExpwFkL._SL1500_.jpg" alt="pic">
+                    </div>
+                    <h3 class="font-semibold text-xl mt-4">Mortal Kombat 11</h3>
+                    <p class="text-lg text-gray-400">Warner Bros</p>
+                        <img class="mt-2 px-16" src="assets/stars-5.png" alt="star">
+                </div>
+                <div class="text-center p-6 bg-white rounded-xl shadow-md mb-2">
+                    <div>
+                        <img class="w-64 h-80" src="https://m.media-amazon.com/images/I/61PAS17sL3L._SL1000_.jpg" alt="pic">
+                    </div>
+                    <h3 class="font-semibold text-xl mt-4">Star Wars</h3>
+                    <p class="text-lg text-gray-400">Electronic Arts</p>
+                    <img class="mt-2 px-16" src="assets/stars-5.png" alt="star">
+                </div>
+                <div class="text-center p-6 bg-white rounded-xl shadow-md mb-2">
+                    <div>
+                        <img class="w-64 h-80" src="https://m.media-amazon.com/images/I/81YnlBNpddL._SL1500_.jpg" alt="pic">
+                    </div>
+                    <h3 class="font-semibold text-xl mt-4">Kingdom Hearts</h3>
+                    <p class="text-lg text-gray-400">Square Enix</p>
+                    <img class="mt-2 px-16" src="assets/stars-5.png" alt="star">
+                </div>
+                <div class="text-center p-6 bg-white rounded-xl shadow-md mb-2">
+                    <div>
+                        <img class="w-64 h-80" src="https://m.media-amazon.com/images/I/81MH4-BdD-L._SL1500_.jpg" alt="pic">
+                    </div>
+                    <h3 class="font-semibold text-xl mt-4">Tom Clancy's </h3>
+                    <p class="text-lg text-gray-400">Ubisoft</p>
+                    <img class="mt-2 px-16" src="assets/stars-5.png" alt="star">
+                </div>
+            </div>
+            <div class="mt-8 text-center">
+                <button class="rounded-lg mb-5 text-white bg-cyan-600 hover:bg-black p-3 px-4"><a href="#">Explore More!</a></button>
+            </div>
+        </div>
+    </section>
+
+    <!--List -->
+    <section>
+        <div class="container mx-auto py-10">
+            <h1 class="text-center text-3xl font-semibold mb-10">Game Of The Year</h1>
+            <div class="flex items-center">
+                <div class="w-1/2">
+                        <img class="w-full px-8" src="https://gamebrott.com/wp-content/uploads/2021/08/Call-of-Duty-Vanguard-feature.jpg" alt="">
+                </div>
+                <div class="w-1/2 mr-3">
+                    <h2 class="font-bold text-2xl mb-2">Call of duty: Vanguard</h2>
+                    <p class="mb-2 text-justify">a 2021 first-person shooter game developed by Sledgehammer Games and published by Activision. It was released on November 5 for Microsoft Windows, PlayStation 4, PlayStation 5, Xbox One, and Xbox Series X/S. It serves as the 18th installment in the overall Call of Duty series. It establishes a storyline featuring the birth of the special forces to face an emerging threat at the end of the war during various theatres of World War II.</p>
+                    <h2 class="font-semibold text-2xl"> <span class="line-through pr-4 text-xl">$79.99 </span>$49,99 (Special Winter Discount) </h2> <br>
+                    <button class="rounded-lg text-white bg-cyan-600 hover:bg-black p-3 px-4"><a href="#"> Buy Now! </a> </button>
+                </div>
+            </div>
+            <div class="flex items-center mt-8">
+                <div class="w-1/2">
+                        <img class="w-full px-8" src="https://www.epingi.com/wp-content/uploads/2021/09/Battlefield-2042-PC-Version-Full-Game-Setup-Free-Download.jpg" alt="">
+                </div>
+                <div class="w-1/2 mr-3 mb-10">
+                    <h2 class="font-bold text-2xl mb-2">Battlefield 2042</h2>
+                    <p class="mb-2 text-justify">Battlefield™ 2042 is a first-person shooter that marks the return to the iconic all-out warfare of the franchise. Adapt and overcome in a near-future world transformed by disorder. Squad up and bring a cutting-edge arsenal into dynamically-changing battlegrounds supporting 128 players, unprecedented scale, and epic destruction.</p>
+                    <h2 class="font-semibold text-2xl"><span class="line-through pr-4 text-xl">$109.99 </span>$79.99 (Best Deals) </h2> <br>
+                    <button class="rounded-lg text-white bg-cyan-600 hover:bg-black p-3 px-4"><a href="#"> Buy Now! </a> </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact-->
+    <section class="bg-white">
+        <div class="container mx-auto py-8">
+            <h2 class="text-center text-3xl font-semibold mb-8">Contact Info</h2>
+            <div class="flex justify-between ml-10 mb-6 gap-8 items-center">               
+                <div class="w-1/2 flex justify-center item-center">
+                    <iframe class="rounded-xl shadow-xl w-96 h-72" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d531.3782537171473!2d104.6508583181038!3d-3.2076363179800964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3bbd8c40a53a25%3A0x504d020294637653!2sPEGAGAN%20FAMILY&#39;S%20KOST!5e0!3m2!1sen!2sid!4v1646517499096!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+                </div>
+    
+                <div class="w-1/2 text-center ml-6">
+                    <div class="w-1/2">
+                        <i class="text-2xl fas fa-map-marker-alt hover:text-cyan-600"></i>
+                        <h2 class="text-lg font-bold">Address</h2>
+                        <p class="mb-3 text-gray-500">Palembang Indonesia</p>
+                    </div>
+                    <div class="w-2/4">    
+                        <i class="text-2xl fas fa-phone-alt hover:text-cyan-600""></i>
+                        <h2 class="text-lg font-bold">Phone</h2>
+                        <p class="mb-3 text-gray-500">+012 345 6789</p>
+                    </div>
+                    <div class="w-2/4">
+                        <i class="text-2xl fas fa-envelope hover:text-cyan-600""></i>
+                        <h2 class="text-lg font-bold">Email</h2>
+                        <p class="mb-5 text-gray-500">lungmen@gmail.com</p>        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Review-->
+    <section>
+        <div class="container mx-auto py-8 px-6">
+            <h2 class="text-center text-xl font-semibold">Some comments from buyers</h2>
+            <div class="flex gap-5 mt-7 mb-5 justify-between">
+                <div class="bg-white p-6 rounded-xl w-2/6 shadow-md">
+                    <div class="flex items-center">
+                        <div>
+                            <img class="w-12 pr-3" src="assets/profil.png" alt="">
+                        </div>
+                        <h5 class="font-semibold text-lg">Vladimir Putin</h5>
+                    </div>
+                    <p class="mt-2">Magnam vero rerum voluptate dolore accusamus earum soluta, aperiam libero eius, incidunt alias, nostrum distinctio voluptatibus odit eum! Placeat quae voluptate perspiciatis.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl w-2/6 shadow-md">
+                    <div class="flex items-center">
+                        <div>
+                            <img class="w-12 pr-3" src="assets/profil.png" alt="">
+                        </div>
+                        <h5 class=" font-semibold text-lg">Joko Widodo</h5>
+                    </div>
+                    <p class="mt-2">Error, repudiandae obcaecati labore rerum molestiae totam minus. Architecto eligendi provident rerum inventore ipsa, praesentium, adipisci exercitationem blanditiis quasi saepe dolores minus?</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl w-2/6 shadow-md">
+                    <div class="flex items-center">
+                        <div>
+                            <img class="w-12 pr-3" src="assets/profil.png" alt="">
+                        </div>
+                        <h5 class="font-semibold text-lg">Kim Jong-Un</h5>
+                    </div>
+                    <p class="mt-2">Quisquam sapiente doloremque rerum at amet libero iste explicabo, cumque quam a debitis. Blanditiis molestiae autem, quisquam labore eaque iure vitae quis!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscription -->
+    <section class="bg-white">
+        <div class="container mx-auto py-4">
+            <div class="m-5">
+                <h2 class="font-bold text-4xl font-mono mb-4"> Get updates from Lungmen by Subscribe to us! </h2>
+                <p class="mb-5 text-lg"> By subscribe to us, you'll get notification about newest update and your wishlist!</p>
+                <button class="rounded-md text-lg text-white bg-cyan-600 hover:bg-black p-3 mb-4"><a href="#">Subscription</a></button> 
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-cyan-600">
+        <div class="container mx-auto py-5">
+            <ul>
+                <li class="inline p-3 hover:bg-white font-semibold text-lg"> Game Center </li>
+                <li class="inline p-3 hover:bg-white font-semibold text-lg"> Subscription </li>
+                <li class="inline p-3 hover:bg-white font-semibold text-lg"> Forum </li>
+                <li class="inline p-3 hover:bg-white font-semibold text-lg"> Report </li>
+            </ul>
+            <br>
+            <p class="font-semibold ml-3 text-lg"> © 2021 Lungmen Store Inc. </p>
+        </div>
+    </footer>
+</body>
+</html>
